@@ -54,7 +54,7 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - wordpress:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email stas@stanisla437 --agree-tos --no-eff-email --staging -d stanislav437 -d www.stanislav437
+    command: certonly --webroot --webroot-path=/var/www/html --email stas@15.188.57.143 --agree-tos --no-eff-email --staging -d 15.188.57.143 -d www.15.188.57.143
 
 volumes:
   certbot-etc:
